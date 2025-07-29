@@ -90,6 +90,8 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
 
 ---
 
+## Project Structure
+```
 UHI/
 ├── data/
 │   └── load_data.py              # Functions to load and preprocess raw satellite and ground truth data
@@ -109,4 +111,5 @@ UHI/
 │
 └── requirements.txt             # All required Python packages with pinned versions
 │
-└── README.md 
+└── README.md
+```
