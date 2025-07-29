@@ -10,7 +10,7 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
 
 ---
 
-## 🛰Data Overview
+## Data Overview
 
 - **Satellite Sources**:  
   - Landsat-8 (Collection 2, Level-2)
@@ -65,7 +65,7 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
 
 ---
 
-## 📈 Visual Results
+## Visual Results
 
 | Model | R² Score | MAE | RMSE |
 |-------|----------|-----|------|
@@ -89,3 +89,24 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
 | Scaling         | `RobustScaler` (scikit-learn)                      |
 
 ---
+
+UHI/
+├── data/
+│   └── load_data.py              # Functions to load and preprocess raw satellite and ground truth data
+│
+├── results/
+│   ├── shap_analysis.py         # SHAP explainability for model interpretability
+│   └── visualization.py         # Visualization utilities for model outputs and indices
+│
+├── train/
+│   ├── feature_engineer.py      # Feature extraction and transformation logic (e.g., NDVI, scaling)
+│   ├── ltsm.py                  # LSTM deep learning model architecture and training pipeline
+│   ├── models.py                # Traditional ML models (Random Forest, XGBoost) and utilities
+│
+├── config.py                    # Configuration variables (e.g., paths, hyperparameters)
+├── dependencies.py              # Dependency checking and environment setup
+├── main.py                      # Entry point to run full training and evaluation pipeline
+│
+└── requirements.txt             # All required Python packages with pinned versions
+│
+└── README.md 
