@@ -16,16 +16,13 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
   - Landsat-8 (Collection 2, Level-2)
   - [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/)
 
-- **Time Range**:  
-  - 2020–2025
+- **Time Range**:  2020 - 2025
 
-- **Spatial Area**:  
-  - Ocean Park I (Hanoi):  
+- **Spatial Area**:  Ocean Park I (Hanoi):  
     Lower-left: `(20.983959, 105.932202)`  
     Upper-right: `(21.004831, 105.962790)`
 
-- **Cloud Filter**:  
-  - Less than 50% cloud coverage
+- **Cloud Filter**:  Less than 50% cloud coverage
 
 ---
 
@@ -43,7 +40,7 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
    - Normalized UHI intensity
 
 4. **Feature Engineering**  
-   - Input features: B01 (Coastal), B02–B06 (Blue–SWIR), NDVI  
+   - Input features: B01 (Coastal), B02 - B06 (Blue - SWIR), NDVI  
    - Target: Normalized UHI (from LWIR11 band)
 
 5. **Modeling**  
