@@ -81,7 +81,7 @@ To analyze and predict the intensity of urban heat islands in the Ocean Park I (
 | Data Access     | Microsoft Planetary Computer (STAC API)            |
 | Query & Load    | `pystac_client`, `odc.stac`, `xarray`              |
 | Processing      | `numpy`, `pandas`, `dask`, `matplotlib`, `seaborn`|
-| Modeling        | `scikit-learn`, `xgboost`, `tensorflow` (LSTM)     |
+| Modeling        | `scikit-learn`, `xgboost`, `pytorch` (LSTM)     |
 | Explainability  | `shap`                                             |
 | Scaling         | `RobustScaler` (scikit-learn)                      |
 
